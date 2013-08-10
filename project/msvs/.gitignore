@@ -1,0 +1,8 @@
+bin
+lib
+obj
+
+*.sdf
+*.suo
+*.user
+*.sln.docstates
