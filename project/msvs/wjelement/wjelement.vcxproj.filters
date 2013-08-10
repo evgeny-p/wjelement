@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\xpl">
+      <UniqueIdentifier>{d93e126c-4d7f-43ea-9857-399a0739df18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\wjreader">
+      <UniqueIdentifier>{6c788ae1-fcb8-40ad-a2b3-1e32dfb9bcc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\wjwriter">
+      <UniqueIdentifier>{d0d298d9-07b9-491b-a8ba-6f911916f25c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\wjelement">
+      <UniqueIdentifier>{98a00446-a46b-45fc-8c34-b1d3e1c1df43}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\xpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wjelement\element.h">
+      <Filter>Source Files\wjelement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\hulautil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\memmgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\wjelement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\wjreader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\wjwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\lib\xpl.c">
+      <Filter>Source Files\xpl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wjreader\wjreader.c">
+      <Filter>Source Files\wjreader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wjwriter\wjwriter.c">
+      <Filter>Source Files\wjwriter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wjelement\element.c">
+      <Filter>Source Files\wjelement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wjelement\hash.c">
+      <Filter>Source Files\wjelement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wjelement\schema.c">
+      <Filter>Source Files\wjelement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wjelement\search.c">
+      <Filter>Source Files\wjelement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wjelement\types.c">
+      <Filter>Source Files\wjelement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wjelement\wjeunit.c">
+      <Filter>Source Files\wjelement</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
